@@ -1,0 +1,5 @@
+anthropic
+matplotlib
+numpy
+pandas
+scikit-learn
