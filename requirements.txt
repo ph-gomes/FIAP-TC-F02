@@ -1,5 +1,7 @@
 anthropic
+gdown
 matplotlib
 numpy
 pandas
+pytest
 scikit-learn
