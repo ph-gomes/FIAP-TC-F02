@@ -18,13 +18,15 @@ interpretações em linguagem natural dos resultados para profissionais de saúd
 │   └── logging_utils.py        # logger estruturado (JSON) + decorator de monitoramento
 ├── tests/                      # testes automatizados (pytest) das funções em src/
 ├── docs/
-│   └── architecture.md         # documentação de arquitetura e decisões de implementação
+│   ├── architecture.md         # documentação de arquitetura e decisões de implementação
+│   └── RelatorioTC2.pdf        # relatório técnico do Tech Challenge
 └── tech_challenge_f02.ipynb    # notebook de demonstração: orquestra src/ e mostra os resultados
 ```
 
 O notebook carrega os dados, chama as funções de `src/` na ordem do pipeline e
 exibe os resultados (tabelas, gráficos, explicações). Detalhes de arquitetura e
-decisões de implementação estão em [`docs/architecture.md`](docs/architecture.md).
+decisões de implementação estão em [`docs/architecture.md`](docs/architecture.md), e o
+relatório técnico da entrega em [`docs/RelatorioTC2.pdf`](docs/RelatorioTC2.pdf).
 
 Conteúdo do notebook:
 - preparação dos dados e modelo original (baseline);
